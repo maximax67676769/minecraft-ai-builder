@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "ai_builder",
+  "version": "${version}",
+  "name": "AI Builder",
+  "description": "Build Minecraft structures from natural-language chat commands.",
+  "authors": [
+    "OpenAI + user"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.aibuilder.client.AiBuilderClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

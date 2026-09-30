@@ -1,0 +1,15 @@
+AI Builder — Minecraft Java 1.21.11
+
+1. Установи JDK 21.
+2. Установи Fabric Loader 0.19.5 для Minecraft 1.21.11.
+3. Установи Fabric API 0.141.6+1.21.11.
+4. Собери проект командой: ./gradlew build
+5. Возьми remapped jar из build/libs/ и положи его в .minecraft/mods/.
+6. Задай OPENAI_API_KEY в окружении перед запуском Minecraft.
+7. Запусти Minecraft 1.21.11 с Fabric.
+8. В мире с включёнными командами напиши: построй современный дом 15 на 20
+
+Для Windows PowerShell:
+$env:OPENAI_API_KEY="sk-..."
+
+Команды /aibuilder пока не нужны: строительство запускается обычным сообщением «построй ...».
